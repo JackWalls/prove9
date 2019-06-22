@@ -1,22 +1,44 @@
 {
-  "name": "prove9",
-  "version": "1.0.0",
-  "description": "",
+  
+   "name": "Prove 9",
+  
+   "version": "1.0.0",
+  
+   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JackWalls/prove9.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JackWalls/prove9/issues"
-  },
-  "homepage": "https://github.com/JackWalls/prove9#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  
+   "scripts": {
+ 
+	"start": "node index.js",   
+	"test": "echo \"Error: no test specified\" && exit 1"
+  
+   },
+  
+   "repository": {
+    
+	"type": "git",
+    
+	"url": "git+https://github.com/JackWalls/prove9.git"
+  
+   },
+   "dependencies": {
+ 	"ejs": "^2.5.6",
+    	"express": "^4.15.2"
+
+   },
+   "keywords": [
+	"node",
+    	"heroku",
+    	"express"
+   ],
+  
+   "author": "Jose Paredes",
+  
+   "license": "ISC",
+  
+   "bugs": {
+    
+	"url": "https://github.com/JackWalls/prove9/issues"
+  
+   }
 }
